@@ -19,7 +19,7 @@ app.use(limiter); // It will apply the rate limit whole server
 app.get("/", (req, res) => {
     res.status(200).json({
         status: "success",
-        message: "Hello from the GeeksforGeeks express server"
+        message: "Hello This app have route like a /route, /stream, /non-stream and /status"
     });
 });
 
